@@ -2,21 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
-    margin: 1rem;
-    padding: 6rem;
+    margin: 2rem 5rem;
+    padding: 5rem;
 }
 
-.heading {
+/* HEADER HEADING */
+
+header {
     display: flex;
-    font-family: sans-serif;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    gap:5rem;
+    margin-bottom: 50px;
+    font-size: 40px;
 }
+
+
+/* HEADER RULES AND BUTTONS */
 
 .header-description-box {
     display: flex;
@@ -58,4 +63,30 @@ button {
 button p {
     font-size: 18px;
     color: white;
+}
+
+
+.game-boxes {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px
+}
+
+.game-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.game-boxes button {
+    background-color: rgb(124, 36, 36);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    height: 52px;
+}
+
+li {
+    margin: 10px auto;
+    list-style: none;
 }

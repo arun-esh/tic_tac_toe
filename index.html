@@ -17,57 +17,116 @@
             </h1>
 
         </div>
+    </header>
 
-        <div class="header-description-box">
+    <div class="header-description-box">
 
-            <div class="header-rules">
-                <h2>
-                    Rules:
-                </h2>
-                <p>
-                    Player vs Player First user will get "X" assigned to them and second will get "O".
-                </p>
+        <div class="header-rules">
+            <h2>
+                Rules:
+            </h2>
+            <ul>
+                <li>
+                    <strong>Player vs Player: </strong> First user will get "X" assigned to them and second will get "O".
+                </li>
 
-                <p>Player vs Computer Lvl1 User will play with computer. Computer user will just choose any random
+                <li><strong>Player vs AI level 1: </strong> User will play with computer. Computer user will just choose any random
                     empty spot. There is no logic implimented for computer user to win. It is just blindly choosing any
                     random empty spot.
-                </p>
+                </li>
 
-                <p>
-                    User will play with computer. Computer user will just choose any random empty spot.
+                <li>
+                    <strong>Player vs AI level 2: </strong> User will play with computer. Computer user will just choose any random empty spot.
                     There is no logic implimented for computer user to win. It is just blindly choosing any
                     random empty spot.
-                </p>
-
-            </div>
-
-            <div class="userOptions">
-                <button type="button" class="header-btn" name="userSelection1" onclick="userSelection(this.id)">
-                    <p>
-                        Player vs Player
-                    </p>
-                </button>
-                <button type="button" class="header-btn" name="userSelection2" onclick="userSelection(this.id)">
-                    <p>
-                        Player vs AI level 1
-
-                    </p>
-                </button>
-                <button type="button" class="header-btn" name="userSelection3" onclick="userSelection(this.id)">
-                    <p>
-                        Player vs AI level 2
-                    </p>
-                </button>
-            </div>
-
-
-            <div class="header-description">
-
-            </div>
-
+                </li>
+            </ul>
 
         </div>
-    </header>
+
+        <div class="userOptions">
+            <button type="button" class="header-btn" name="userSelection1" onclick="userSelection(this.id)">
+                <p>
+                    Player vs Player
+                </p>
+            </button>
+            <button type="button" class="header-btn" name="userSelection2" onclick="userSelection(this.id)">
+                <p>
+                    Player vs AI level 1
+
+                </p>
+            </button>
+            <button type="button" class="header-btn" name="userSelection3" onclick="userSelection(this.id)">
+                <p>
+                    Player vs AI level 2
+                </p>
+            </button>
+        </div>
+    </div>
+
+
+
+    <section class="game-area">
+
+        <div class="game-boxes">
+            <button type="button" id="1" class="game-cell" name="userSelection3" onclick="userSelection(Number(this.id))">
+                <p>
+
+                </p>
+            </button>
+
+            <button type="button" id="2" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
+                <p>
+
+                </p>
+            </button>
+
+            <button type="button" id="3" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
+                <p>
+
+                </p>
+            </button>
+
+
+            <button type="button" id="4" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
+                <p>
+
+                </p>
+            </button>
+
+            <button type="button" id="5" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
+                <p>
+
+                </p>
+            </button>
+
+
+            <button type="button" id="6" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
+                <p>
+
+                </p>
+            </button>
+
+            <button type="button" id="7" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
+                <p>
+
+                </p>
+            </button>
+
+            <button type="button" id="8" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
+                <p>
+
+                </p>
+            </button>
+
+
+            <button type="button" id="9" class="header-btn" name="userSelection3" onclick="userSelection(this.id)">
+                <p>
+
+                </p>
+            </button>
+        </div>
+    </section>
 
     <script src="./script.js"></script>
 

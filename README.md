@@ -21,3 +21,6 @@ There will be three options for user to select:
 
 
 
+**How it is started:**
+
+![image-20220708164507278](img/image-20220708164507278.png)
