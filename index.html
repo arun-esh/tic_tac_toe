@@ -27,16 +27,19 @@
             </h2>
             <ul>
                 <li>
-                    <strong>Player vs Player: </strong> First user will get "X" assigned to them and second will get "O".
+                    <strong>Player vs Player: </strong> First user will get "X" assigned to them and second will get
+                    "O".
                 </li>
 
-                <li><strong>Player vs AI level 1: </strong> User will play with computer. Computer user will just choose any random
+                <li><strong>Player vs AI level 1: </strong> User will play with computer. Computer user will just choose
+                    any random
                     empty spot. There is no logic implimented for computer user to win. It is just blindly choosing any
                     random empty spot.
                 </li>
 
                 <li>
-                    <strong>Player vs AI level 2: </strong> User will play with computer. Computer user will just choose any random empty spot.
+                    <strong>Player vs AI level 2: </strong> User will play with computer. Computer user will just choose
+                    any random empty spot.
                     There is no logic implimented for computer user to win. It is just blindly choosing any
                     random empty spot.
                 </li>
@@ -45,18 +48,18 @@
         </div>
 
         <div class="userOptions">
-            <button type="button" class="header-btn" name="userSelection1" onclick="userSelection(this.id)">
+            <button type="button" class="header-btn" name="userSelection1" onclick="">
                 <p>
                     Player vs Player
                 </p>
             </button>
-            <button type="button" class="header-btn" name="userSelection2" onclick="userSelection(this.id)">
+            <button type="button" class="header-btn" name="userSelection2" onclick="">
                 <p>
                     Player vs AI level 1
 
                 </p>
             </button>
-            <button type="button" class="header-btn" name="userSelection3" onclick="userSelection(this.id)">
+            <button type="button" class="header-btn" name="userSelection3" onclick="">
                 <p>
                     Player vs AI level 2
                 </p>
@@ -69,64 +72,26 @@
     <section class="game-area">
 
         <div class="game-boxes">
-            <button type="button" id="1" class="game-cell" name="userSelection3" onclick="userSelection(Number(this.id))">
-                <p>
-
-                </p>
-            </button>
-
-            <button type="button" id="2" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
-                <p>
-
-                </p>
-            </button>
-
-            <button type="button" id="3" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
-                <p>
-
-                </p>
-            </button>
-
-
-            <button type="button" id="4" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
-                <p>
-
-                </p>
-            </button>
-
-            <button type="button" id="5" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
-                <p>
-
-                </p>
-            </button>
-
-
-            <button type="button" id="6" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
-                <p>
-
-                </p>
-            </button>
-
-            <button type="button" id="7" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
-                <p>
-
-                </p>
-            </button>
-
-            <button type="button" id="8" class="game-cell" name="userSelection3" onclick="userSelection(this.id)">
-                <p>
-
-                </p>
-            </button>
-
-
-            <button type="button" id="9" class="header-btn" name="userSelection3" onclick="userSelection(this.id)">
-                <p>
-
-                </p>
-            </button>
+            <input type="button" id="1" class="game-btn" name="gameBox1" onclick="gameBox(this.id)" value="" title="new" >
+            <input type="button" id="2" class="game-btn" name="gameBox2" onclick="gameBox(this.id)" value="">
+            <input type="button" id="3" class="game-btn" name="gameBox3" onclick="gameBox(this.id)" value="">
+            <input type="button" id="4" class="game-btn" name="gameBox4" onclick="gameBox(this.id)" value="">
+            <input type="button" id="5" class="game-btn" name="gameBox5" onclick="gameBox(this.id)" value="">
+            <input type="button" id="6" class="game-btn" name="gameBox6" onclick="gameBox(this.id)" value="">
+            <input type="button" id="7" class="game-btn" name="gameBox7" onclick="gameBox(this.id)" value="">
+            <input type="button" id="8" class="game-btn" name="gameBox8" onclick="gameBox(this.id)" value="">
+            <input type="button" id="9" class="game-btn" name="gameBox9" onclick="gameBox(this.id)" value="">
+           
         </div>
     </section>
+
+    <div class="reset-section">
+        <button type="button" id="reset" class="header-btn" name="userSelection1" onclick="">
+            <p>
+                RESET
+            </p>
+        </button>
+    </div>
 
     <script src="./script.js"></script>
 

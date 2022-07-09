@@ -80,13 +80,28 @@ button p {
     margin-top: 30px;
 }
 
-.game-boxes button {
-    background-color: rgb(124, 36, 36);
+.game-boxes input {
+    background-color: white;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     height: 52px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    color: black;
+    font-size: 28px;
 }
 
 li {
     margin: 10px auto;
     list-style: none;
+}
+
+.reset-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reset-section button {
+    background-color: red;
+    margin: 20px;
 }
