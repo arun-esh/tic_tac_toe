@@ -4,8 +4,6 @@
 // track the user turn
 let trackingNumber = 1;
 
-document.getElementsByName(".")
-// Testing
 
 function test (value){
     console.log(value)
