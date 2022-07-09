@@ -1,100 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet">
-    <title>T3-Game</title>
+    <link href="./style.css" rel="stylesheet" />
+    <title>T3</title>
 </head>
-
 <body>
-    <header>
-        <div class="heading">
-            <h1>
-                Tic Tac Toe
-            </h1>
 
+    <header>
+        <h1>TIC TAC TOE</h1>
+        <div class="difficulty-selection-box">
+            <input type="button" id="normal" name="difficulty_selection" value="Player vs Player">
+            <input type="button" id="easy" name="difficulty_selection" value="Player vs Computer (Easy)">
+            <input type="button" id="hard" name="difficulty_selection" value="Player vs Computer (Hard)">
         </div>
     </header>
 
-    <div class="header-description-box">
-
-        <div class="header-rules">
-            <h2>
-                Rules:
-            </h2>
-            <ul>
-                <li>
-                    <strong>Player vs Player: </strong> First user will get "X" assigned to them and second will get
-                    "O".
-                </li>
-
-                <li><strong>Player vs AI level 1: </strong> User will play with computer. Computer user will just choose
-                    any random
-                    empty spot. There is no logic implimented for computer user to win. It is just blindly choosing any
-                    random empty spot.
-                </li>
-
-                <li>
-                    <strong>Player vs AI level 2: </strong> User will play with computer. Computer user will just choose
-                    any random empty spot.
-                    There is no logic implimented for computer user to win. It is just blindly choosing any
-                    random empty spot.
-                </li>
-            </ul>
-
-        </div>
-
-        <div class="userOptions">
-            <button type="button" class="header-btn" name="userSelection1" onclick="">
-                <p>
-                    Player vs Player
-                </p>
-            </button>
-            <button type="button" class="header-btn" name="userSelection2" onclick="">
-                <p>
-                    Player vs AI level 1
-
-                </p>
-            </button>
-            <button type="button" class="header-btn" name="userSelection3" onclick="">
-                <p>
-                    Player vs AI level 2
-                </p>
-            </button>
-        </div>
-    </div>
-
-
-
     <section class="game-area">
-
-        <div class="game-boxes">
-            <input type="button" id="1" class="game-btn" name="gameBox1" onclick="gameBox(this.id)" value="" title="new" >
-            <input type="button" id="2" class="game-btn" name="gameBox2" onclick="gameBox(this.id)" value="">
-            <input type="button" id="3" class="game-btn" name="gameBox3" onclick="gameBox(this.id)" value="">
-            <input type="button" id="4" class="game-btn" name="gameBox4" onclick="gameBox(this.id)" value="">
-            <input type="button" id="5" class="game-btn" name="gameBox5" onclick="gameBox(this.id)" value="">
-            <input type="button" id="6" class="game-btn" name="gameBox6" onclick="gameBox(this.id)" value="">
-            <input type="button" id="7" class="game-btn" name="gameBox7" onclick="gameBox(this.id)" value="">
-            <input type="button" id="8" class="game-btn" name="gameBox8" onclick="gameBox(this.id)" value="">
-            <input type="button" id="9" class="game-btn" name="gameBox9" onclick="gameBox(this.id)" value="">
-           
-        </div>
+        <input type="text" id="btn1" value="" >
+        <input type="text" id="btn2" value="" >
+        <input type="text" id="btn3" value="" >
+        <input type="text" id="btn4" value="" >
+        <input type="text" id="btn5" value="" >
+        <input type="text" id="btn6" value="" >
+        <input type="text" id="btn7" value="" >
+        <input type="text" id="btn8" value="" >
+        <input type="text" id="btn9" value="" >
     </section>
-
-    <div class="reset-section">
-        <button type="button" id="reset" class="header-btn" name="userSelection1" onclick="">
-            <p>
-                RESET
-            </p>
-        </button>
-    </div>
-
-    <script src="./script.js"></script>
-
+    
 </body>
-
 </html>

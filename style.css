@@ -2,106 +2,50 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 
-body {
-    margin: 2rem 5rem;
-    padding: 5rem;
+h1 {
+  font-size: 6rem;
+  text-align: center;
 }
 
-/* HEADER HEADING */
-
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-    font-size: 40px;
+.difficulty-selection-box {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
-
-/* HEADER RULES AND BUTTONS */
-
-.header-description-box {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 10rem;
+.difficulty-selection-box input {
+  align-self: center;
+  padding: 1rem;
+  font-size: 1.5rem;
 }
 
-.header-rules {
-    display: flex;
-    flex-direction: column;
-
+.game-area {
+  display: grid;
+  grid-template-columns: repeat(3, 6rem);
+  justify-content: space-between;
+  align-items: center; 
+  gap: 2rem
 }
 
-.userOptions {
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
-}
-
-
-.header-btn p{
-    align-items: center;
-    text-decoration: none;
-    white-space: nowrap;
-    padding: 10px;
-    
-}
-
-
-button {
-    border: none;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    background-color: rgb(66, 129, 75);
-    border-radius: 8px;
-    padding: 5px;
-}
-
-button p {
-    font-size: 18px;
-    color: white;
-}
-
-
-.game-boxes {
+/* .game-boxes {
     display: grid;
     grid-template-columns: 80px 80px 80px;
     grid-template-rows: repeat(3, 1fr);
     gap: 20px
-}
+} */
 
-.game-area {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 30px;
-}
-
-.game-boxes input {
-    background-color: white;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    height: 52px;
-    border: 2px solid grey;
-    border-radius: 9px;
-    color: black;
-    font-size: 28px;
-}
-
-li {
-    margin: 10px auto;
-    list-style: none;
-}
-
-.reset-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.reset-section button {
-    background-color: red;
-    margin: 20px;
+.game-area input {
+  background-color: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  height: 5rem;
+  border: 2px solid grey;
+  border-radius: 9px;
+  color: black;
+  font-size: 28px;
+  gap: 1rem;
+  align-self: center;
 }
