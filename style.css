@@ -47,9 +47,10 @@ h1 {
   border: 2px solid grey;
   border-radius: 9px;
   color: black;
-  font-size: 28px;
+  font-size: 5rem;
   gap: 2rem;
   align-self: center;
+  text-align: center;
 }
 
 .game-area {

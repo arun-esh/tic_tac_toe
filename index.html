@@ -19,20 +19,20 @@
     </header>
 
     <section class="game-area">
-        <input type="text" id="btn1" class="game-cell" onclick="" value="" readonly>
-        <input type="text" id="btn2" class="game-cell" onclick="" value="" readonly>
-        <input type="text" id="btn3" class="game-cell" onclick="" value="" readonly>
-        <input type="text" id="btn4" class="game-cell" onclick="" value="" readonly>
-        <input type="text" id="btn5" class="game-cell" onclick="" value="" readonly>
-        <input type="text" id="btn6" class="game-cell" onclick="" value="" readonly>
-        <input type="text" id="btn7" class="game-cell" onclick="" value="" readonly>
-        <input type="text" id="btn8" class="game-cell" onclick="" value="" readonly>
-        <input type="text" id="btn9" class="game-cell" onclick="" value="" readonly>
+        <input type="text" id="1" class="game-cell" onclick="getCellId(this.id)" value="" readonly>
+        <input type="text" id="2" class="game-cell" onclick="getCellId(this.id)" value="" readonly>
+        <input type="text" id="3" class="game-cell" onclick="getCellId(this.id)" value="" readonly>
+        <input type="text" id="4" class="game-cell" onclick="getCellId(this.id)" value="" readonly>
+        <input type="text" id="5" class="game-cell" onclick="getCellId(this.id)" value="" readonly>
+        <input type="text" id="6" class="game-cell" onclick="getCellId(this.id)" value="" readonly>
+        <input type="text" id="7" class="game-cell" onclick="getCellId(this.id)" value="" readonly>
+        <input type="text" id="8" class="game-cell" onclick="getCellId(this.id)" value="" readonly>
+        <input type="text" id="9" class="game-cell" onclick="getCellId(this.id)" value="" readonly>
     </section>
     
     
     <div class="reset">
-        <input type="text" id="reset" value="RESET" >
+        <input type="text" id="reset" onclick="gameBoardReset()" value="RESET" readonly>
     </div>
 
     <script src="./script.js" > </script>
