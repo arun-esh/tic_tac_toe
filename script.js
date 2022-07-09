@@ -15,6 +15,14 @@ function test (value){
 
 function getCellId(id) {
     document.getElementById(id).value = userTurn(trackingNumber);
+    if(trackingNumber % 2 == 0) {
+        document.getElementById(id).style.color = "green";
+        document.getElementById(id).style.fontWeight = "bold";
+    }
+    else{
+        document.getElementById(id).style.color = "brown";
+        document.getElementById(id).style.fontWeight = "bold";
+    }
     document.getElementById(id).disabled = true;
     
 
